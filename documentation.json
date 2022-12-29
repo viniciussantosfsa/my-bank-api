@@ -1,0 +1,114 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "methods": [
+                {
+                    "type": "POST",
+                    "description": "Creates a new account with the provided name and balance in the request body. Returns the newly created account.",
+                    "request": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "name": "string",
+                            "balance": "number"
+                        }
+                    },
+                    "response": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "id": "number",
+                            "name": "string",
+                            "balance": "number"
+                        }
+                    }
+                },
+                {
+                    "type": "GET",
+                    "description": "Retrieves a list of all accounts. Returns an object with a 'accounts' field containing an array of all accounts.",
+                    "request": {
+                        "headers": {}
+                    },
+                    "response": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "accounts": [
+                                {
+                                    "id": "number",
+                                    "name": "string",
+                                    "balance": "number"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/:id",
+            "methods": [
+                {
+                    "type": "GET",
+                    "description": "Retrieves the account with the specified id. Returns the account object if found, or an error if not found.",
+                    "request": {
+                        "headers": {}
+                    },
+                    "response": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "id": "number",
+                            "name": "string",
+                            "balance": "number"
+                        }
+                    }
+                },
+                {
+                    "type": "DELETE",
+                    "description": "Deletes the account with the specified id. Returns an empty response on success, or an error if the account is not found.",
+                    "request": {
+                        "headers": {}
+                    },
+                    "response": {
+                        "headers": {},
+                        "body": null
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/updateBalance",
+            "methods": [
+                {
+                    "type": "PATCH",
+                    "description": "Updates the balance of the account with the specified id. Returns the updated account object if found, or an error if the account is not found.",
+                    "request": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "id": "number",
+                            "balance": "number"
+                        }
+                    },
+                    "response": {
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        "body": {
+                            "id": "number",
+                            "name": "string",
+                            "balance": "number"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+2022-12-28T00:31:46.218Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T00:32:42.871Z [my-bank-api] info: PUT /account - {"id":3,"name":"Zoin","balance":4000}
+2022-12-28T00:32:59.201Z [my-bank-api] info: DELETE /account
+2022-12-28T00:33:26.229Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T00:45:07.122Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T00:45:18.561Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T00:47:37.237Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T00:47:58.164Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T00:52:07.827Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T00:55:48.934Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T00:56:22.080Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:25:19.638Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T01:30:22.574Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T01:30:36.529Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:31:19.777Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:31:22.079Z [my-bank-api] info: API Started! PORT:1002
+2022-12-28T01:31:22.122Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:31:33.678Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:31:37.653Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:32:24.798Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-28T01:32:47.339Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
