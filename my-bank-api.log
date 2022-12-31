@@ -19,3 +19,184 @@
 2022-12-28T01:31:37.653Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
 2022-12-28T01:32:24.798Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
 2022-12-28T01:32:47.339Z [my-bank-api] info: GET /account - {"accounts":[{"id":1,"name":"John David","balance":3010},{"id":2,"name":"Zoin","balance":300}]}
+2022-12-30T00:27:20.745Z [my-bank-api] info: API Started! PORT:1002
+2022-12-30T00:27:22.134Z [my-bank-api] info: API Started! PORT:1002
+
+2022-12-002
+2022-12-30T01:00:26.618Z [my-bank-api] info: API Started! PORT:1002
+
+2022-12-30T01:04:01.130Z [my-bank-api] info: API Started! PORT:1002
+2022-12-30T01:04:45.923Z [my-bank-api] info: API Started! PORT:1002
+
+2022-12-31T15:02:58.237Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:04:55.484Z [my-bank-api] error: POST /account - readFile is not defined
+
+2022-12-31T15:06:32.875Z [my-bank-api] error: POST /account - The "cb" argument must be of type function. Received undefined
+2022-12-31T15:07:01.292Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:07:02.992Z [my-bank-api] info: PUT /account - {"id":5,"name":"Pumba","balance":4000}2022-12-31T15:08:02.451Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:08:06.028Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:22:38.657Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:22:57.533Z [my-bank-api] info: PUT /account - {"id":6,"name":"DeathMask","balance":4000}
+2022-12-31T15:23:04.861Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:24:32.170Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:25:02.034Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:25:19.336Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:26:27.380Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:26:43.550Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:26:52.870Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:28:54.693Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:29:02.248Z [my-bank-api] error: GET /account - accountService.getAccount is not a function
+2022-12-31T15:29:14.206Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:29:15.535Z [my-bank-api] error: GET /account - accountService.getAccount is not a function
+2022-12-31T15:29:49.413Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:29:56.655Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:30:01.361Z [my-bank-api] error: GET /account - accountService.getAccount is not a function
+2022-12-31T15:30:30.552Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:30:33.639Z [my-bank-api] error: GET /account - accountService.getAccount is not a function
+2022-12-31T15:31:54.880Z [my-bank-api] error: GET /account - accountService.getIdAccounts is not a function
+2022-12-31T15:32:13.881Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:32:16.569Z [my-bank-api] error: GET /account - account is not defined
+2022-12-31T15:32:29.193Z [my-bank-api] error: GET /account - accountService.getAccount is not a function
+2022-12-31T15:32:43.405Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:32:45.065Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:32:46.080Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:32:59.266Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:33:02.548Z [my-bank-api] error: GET /account - data is not definedaaaa
+2022-12-31T15:33:22.019Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:34:31.995Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:34:33.088Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:34:38.280Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:34:51.409Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:35:00.589Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:35:02.118Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:35:29.163Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:35:33.210Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:35:58.405Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:36:00.755Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:36:04.060Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:36:05.767Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:36:18.938Z [my-bank-api] error: DELETE /account - The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+2022-12-31T15:38:21.415Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:38:23.070Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:38:25.786Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:38:26.745Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:38:29.900Z [my-bank-api] info: DELETE /account
+2022-12-31T15:38:46.802Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:40:18.371Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:40:41.712Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:40:43.311Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:40:47.479Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:42:34.197Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:42:37.753Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:42:43.274Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:42:45.238Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:42:52.576Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:43:18.409Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:43:20.876Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:43:21.988Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:43:31.269Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:43:40.839Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:19.163Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:26.251Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:33.395Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:35.552Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:38.837Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:44.539Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:48.828Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:51.348Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:44:55.947Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:45:01.381Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:45:03.106Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:45:38.782Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:46:44.247Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:46:51.857Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:46:54.047Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:47:05.958Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:47:42.620Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:47:56.883Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:11.022Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:12.457Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:24.255Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:29.843Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:45.340Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:46.789Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:48:51.926Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:49:02.499Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:49:10.154Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:49:13.681Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:49:31.304Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:50:45.099Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:50:47.051Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:50:48.122Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:00.990Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:06.940Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:10.083Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:12.211Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:22.917Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:29.098Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:51:35.737Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:52:55.797Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:52:56.797Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:52:57.824Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T15:53:35.529Z [my-bank-api] info: PUT /account - {"id":7,"name":"Kellvy","balance":4000}
+2022-12-31T15:53:40.307Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:53:56.498Z [my-bank-api] error: GET /account - account is not defined
+2022-12-31T15:54:07.136Z [my-bank-api] info: DELETE /account
+2022-12-31T15:54:13.341Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:54:44.592Z [my-bank-api] error: PUT /account - Record not found :(
+2022-12-31T15:55:02.191Z [my-bank-api] info: PUT /account - {"id":4,"name":"Isabella","balance":50000}
+2022-12-31T15:55:28.269Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:55:52.390Z [my-bank-api] error: PATCH /account - Record not found :(
+2022-12-31T15:56:01.449Z [my-bank-api] info: PATCH /account/updateBalance - {"id":4,"balance":2000}
+2022-12-31T15:56:06.800Z [my-bank-api] error: GET /account - data is not defined
+2022-12-31T15:56:38.277Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:01:57.144Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:02.090Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:08.383Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:38.183Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:40.085Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:44.369Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:02:58.789Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:03:02.291Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:03:07.394Z [my-bank-api] info: GET /account - undefined
+2022-12-31T16:03:33.252Z [my-bank-api] info: GET /account - undefined
+2022-12-31T16:04:12.329Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:04:15.583Z [my-bank-api] info: GET /account - {}
+2022-12-31T16:04:52.881Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:04:55.118Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:05:09.278Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:05:10.819Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:05:11.518Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:05:31.711Z [my-bank-api] info: GET /account/:id - {}
+2022-12-31T16:05:39.654Z [my-bank-api] info: GET /account/:id - {}
+2022-12-31T16:05:42.940Z [my-bank-api] info: GET /account/:id - {}
+2022-12-31T16:06:00.481Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:03.829Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:08.285Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:20.801Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:24.201Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:25.970Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:06:28.723Z [my-bank-api] error: GET /account - account is not defined
+2022-12-31T16:06:55.639Z [my-bank-api] error: GET /account - account is not defined
+2022-12-31T16:07:04.757Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:19.565Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:27.699Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:32.175Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:35.964Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:40.181Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:45.733Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:48.800Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:54.893Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T16:07:55.722Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T18:13:40.121Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T18:14:02.617Z [my-bank-api] error: POST /account - data is not defined
+2022-12-31T18:59:50.349Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T19:00:03.506Z [my-bank-api] info: PUT /account - {"id":8,"name":"Keyson","balance":4000}
+2022-12-31T19:00:33.966Z [my-bank-api] info: DELETE /account
+2022-12-31T19:00:54.790Z [my-bank-api] info: PUT /account - {"id":6,"name":"Isabella","balance":50000}
+2022-12-31T19:01:09.990Z [my-bank-api] info: PATCH /account/updateBalance - {"id":7,"balance":2000}
+2022-12-31T19:01:57.151Z [my-bank-api] info: PATCH /account/updateBalance - {"id":6,"balance":2000}
+2022-12-31T19:04:00.690Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T19:04:04.787Z [my-bank-api] info: PUT /account - {"id":6,"name":"Isabella","balance":50000}
+2022-12-31T19:04:07.998Z [my-bank-api] info: PATCH /account/updateBalance - {"id":6,"balance":2000}
+2022-12-31T19:04:18.005Z [my-bank-api] info: DELETE /account
