@@ -2,9 +2,11 @@ import express from "express";
 import winston from "winston";
 import accountsRouter from "./routes/accounts.routes.js";
 import cors from "cors";
-import { buildSchema } from "graphql";
 import { graphqlHTTP } from "express-graphql";
-import accountService from "./services/account.service.js";
+import Schema from "./schema/index.js";
+
+//import { buildSchema } from "graphql";
+//import accountService from "./services/account.service.js";
 
 import { promises as fs } from "fs";
 const { readFile, writeFile } = fs;
@@ -26,6 +28,7 @@ global.logger = winston.createLogger({
   format: combine(label({ label: "my-bank-api" }), timestamp(), myFormt),
 });
 
+/*
 const schema = buildSchema(`
   type Account {
     id: Int
@@ -63,6 +66,7 @@ const root = {
     return accountService.updateAccount(account);
   },
 };
+*/
 
 const app = express();
 //app.use(express.static("public"));
@@ -73,8 +77,8 @@ app.use("/account", accountsRouter);
 app.use(
   "/graphql",
   graphqlHTTP({
-    schema,
-    rootValue: root,
+    schema: Schema,
+    //rootValue: root,
     graphiql: true,
   })
 );
