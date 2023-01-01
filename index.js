@@ -2,6 +2,9 @@ import express from "express";
 import winston from "winston";
 import accountsRouter from "./routes/accounts.routes.js";
 import cors from "cors";
+import { buildSchema } from "graphql";
+import { graphqlHTTP } from "express-graphql";
+import accountService from "./services/account.service.js";
 
 import { promises as fs } from "fs";
 const { readFile, writeFile } = fs;
@@ -23,11 +26,58 @@ global.logger = winston.createLogger({
   format: combine(label({ label: "my-bank-api" }), timestamp(), myFormt),
 });
 
+const schema = buildSchema(`
+  type Account {
+    id: Int
+    name: String
+    balance: Float
+  }
+  input AccountInput {
+    id: Int
+    name: String
+    balance: Float
+  }
+  type Query {
+    getAccounts: [Account]
+    getAccount(id: Int): Account
+  }
+  type Mutation {
+    createAccount(account: AccountInput): Account
+    deleteAccount(id: Int): Boolean
+    updateAccount(account: AccountInput): Account
+  }
+`);
+
+const root = {
+  getAccounts: () => accountService.getAccounts(),
+  getAccount(args) {
+    return accountService.getIdAccount(args.id);
+  },
+  createAccount({ account }) {
+    return accountService.createAccount(account);
+  },
+  deleteAccount(args) {
+    accountService.deleteAccount(args.id);
+  },
+  updateAccount({ account }) {
+    return accountService.updateAccount(account);
+  },
+};
+
 const app = express();
+//app.use(express.static("public"));
 app.use(express.json());
 app.use(cors());
-//app.use(express.static("public"));
 app.use("/account", accountsRouter);
+
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    rootValue: root,
+    graphiql: true,
+  })
+);
 
 app.listen(port, async () => {
   try {

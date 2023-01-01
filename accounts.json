@@ -1,20 +1,20 @@
 {
-  "nextId": 9,
+  "nextId": 12,
   "accounts": [
     {
-      "id": 2,
-      "name": "Zoin",
-      "balance": 300
+      "id": 9,
+      "name": "Kellvy Muniz",
+      "balance": 55
     },
     {
-      "id": 4,
-      "name": "Isabella",
-      "balance": 2000
+      "id": 10,
+      "name": "Keyson",
+      "balance": 55
     },
     {
-      "id": 6,
-      "name": "Isabella",
-      "balance": 2000
+      "id": 11,
+      "name": "Vinícius",
+      "balance": 55
     }
   ]
 }

@@ -200,3 +200,14 @@
 2022-12-31T19:04:04.787Z [my-bank-api] info: PUT /account - {"id":6,"name":"Isabella","balance":50000}
 2022-12-31T19:04:07.998Z [my-bank-api] info: PATCH /account/updateBalance - {"id":6,"balance":2000}
 2022-12-31T19:04:18.005Z [my-bank-api] info: DELETE /account
+2022-12-31T22:55:34.681Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T23:01:49.075Z [my-bank-api] info: DELETE /account
+2022-12-31T23:01:51.217Z [my-bank-api] info: DELETE /account
+2022-12-31T23:01:52.840Z [my-bank-api] info: DELETE /account
+2022-12-31T23:02:08.867Z [my-bank-api] info: PUT /account - {"id":9,"name":"Kellvy Muniz","balance":55}
+2022-12-31T23:05:38.980Z [my-bank-api] info: PUT /account - {"id":10,"name":"Keyson","balance":55}
+2022-12-31T23:05:49.931Z [my-bank-api] info: PUT /account - {"id":11,"name":"Vinícius","balance":55}
+2022-12-31T23:12:23.892Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T23:12:34.273Z [my-bank-api] info: API Started! PORT:1002
+2022-12-31T23:12:35.615Z [my-bank-api] info: API Started! PORT:1002
+2023-01-01T13:04:37.897Z [my-bank-api] info: API Started! PORT:1002

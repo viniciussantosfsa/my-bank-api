@@ -12,7 +12,7 @@ async function getAccount(id) {
   if (account) {
     return account;
   }
-  throw new Error("Record not found! :(")
+  throw new Error("Record not found! :(");
 }
 
 async function insertAccount(account) {
