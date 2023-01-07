@@ -58,13 +58,10 @@ async function updateAccount(account) {
   return data.accounts[index];
 }
 
-// async function updateBalance(account) {};
-
 export default {
   insertAccount,
   getAccounts,
   getAccount,
   deleteAccount,
   updateAccount,
-  //updateBalance,
 };

@@ -12,7 +12,7 @@ async function createAccount(req, res, next) {
 
     res.send(account);
 
-    global.logger.info(`PUT /account - ${JSON.stringify(account)}`);
+    global.logger.info(`POST /account - ${JSON.stringify(account)}`);
   } catch (err) {
     next(err);
   }
@@ -22,8 +22,8 @@ async function getAccount(req, res, next) {
   try {
     res.send(await accountService.getAccounts());
 
-    // Logger com problemas
-    //global.logger.info(`GET /account - ${JSON.stringify(accountService.getAccounts())}`);
+    
+    //global.logger.info(`GET /account - ${JSON.stringify(account)}`);
   } catch (err) {
     next(err);
   }
